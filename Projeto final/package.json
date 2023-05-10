@@ -1,5 +1,5 @@
 {
-  "name": "1004-webpack",
+  "name": "animaisfantasticos",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -17,7 +17,6 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
   },
-  "author": "",
   "license": "ISC",
   "description": ""
 }
