@@ -17,11 +17,13 @@ export default function initFetchAnimais() {
         const divAnimal = createAnimal(animal);
         numerosGrid.appendChild(divAnimal);
       });
-      initAnimaNumeros();
+      const animaNumeros = new AnimaNumeros('[data-numero]','.numeros', 'ativo');
+      animaNumeros.init()
     } catch (erro) {
       console.log(erro);
     }
   }
+
 
   fetchAnimais('./animaisapi.json');
 }
