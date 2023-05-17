@@ -1,6 +1,7 @@
 import AnimaNumeros from "./anima-numeros.js";
 
-export default function fetchAnimais(url, target) {
+export default function fetchAnimais(target) {
+  const url = ('../../animaisapi.json')
   const numerosGrid = document.querySelector(target);
 
   function createAnimal(animal) {
