@@ -31,7 +31,7 @@ export default class ScrollAnima {
     }
     return this
   }
-  stop() { // metodo para parar o scroll casod esejado
+  stop() {
     window.removeEventListener("scroll", this.checkDistance);
   }
 }
