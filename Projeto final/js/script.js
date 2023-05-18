@@ -7,6 +7,7 @@ import fetchAnimais from "./modules/fetch-animais.js";
 import fetchBitcoin from "./modules/fetch-bitcoin.js";
 import ScrollAnima from "./modules/ScrollAnima.js";
 
+
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
