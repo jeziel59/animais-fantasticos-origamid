@@ -15,8 +15,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch",
-    "deploy": "gh-pages -d dist"
+    "dev": "webpack --mode development --watch"
   },
   "license": "ISC",
   "description": "",
