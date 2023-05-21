@@ -11,7 +11,8 @@ export default class MenuMobile {
   this.openMenu = this.openMenu.bind(this)
   }
 
-  openMenu() {
+  openMenu(event) {
+    event.preventDefault()
     this.menuList.classList.add(this.classActive);
     this.menuButton.classList.add(this.classActive);
     outsideClick(this.menuList, this.events, () => { // ativa metodo externo de verificação de clique fora
