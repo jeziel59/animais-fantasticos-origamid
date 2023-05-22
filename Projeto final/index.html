@@ -1,188 +1,294 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Animais Fantásticos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-  <script>document.documentElement.className += ' js';</script>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-<body>
-  <div class="grid-container">
-    <nav class="menu" data-menu="suave">
-      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
-      <ul data-menu="list" id="menu">
-        <li><a href="#animais">Animais</a></li>
-        <li data-dropdown>
-          <a href="sobre.html">Sobre</a>
-          <ul class="dropdown-menu">
-            <li><a href="empresa.html">A Empresa</a></li>
-            <li><a href="equipe.html">Equipe</a></li>
-            <li><a href="socios.html">Sócios</a></li>
-            <li><a href="investidores.html">Investidores</a></li>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Animais Fantásticos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a data-modal="abrir" href="login.html"
+              >Login <span class="arrow-black"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos</h1>
+        <ul class="animais-lista" data-tab="menu">
+          <li>
+            <img src="img/imagem1.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem2.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem3.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem4.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem5.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem6.jpg" />
+          </li>
+        </ul>
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Raposa</h2>
+            <p>
+              Raposas são pequenos a médios mamíferos onívoros pertencentes a
+              vários gêneros da família Canidae. As raposas têm o crânio
+              achatado, orelhas triangulares verticais, focinho pontiagudo e
+              ligeiramente arrebitado e uma cauda longa e espessa.
+            </p>
+            <p>
+              Doze espécies pertencem ao grupo monofilético de "raposas
+              verdadeiras" do gênero Vulpes. Aproximadamente outras 25 espécies
+              atuais ou extintas são parte do grupo parafilético das raposas
+              sul-americanas ou do grupo periférico, que consiste na
+              raposa-orelhas-de-morcego, raposa-cinzenta e raposa-das-ilhas.
+            </p>
+            <p>
+              As raposas vivem em todos os continentes, exceto a Antártida. De
+              longe, a espécie mais comum e difundida de raposa é a raposa
+              vermelha (Vulpes vulpes) com cerca de 47 subespécies reconhecidas
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Esquilo</h2>
+            <p>
+              O esquilo (Sciurus vulgaris) é um mamífero pertencente à família
+              Sciudidae e à ordem rodentia. Sua família comprende os esquilos
+              arborícolas, terrestres, voadores e as marmotas, entre outros.
+              Dentre os esquilos arborícolas e terrestres há mais de 230
+              espécies e no grupo dos esquilos voadores estão incluídas 43
+              espécies conhecidas. O esquilo mais comum, o europeu, possui
+              pelagem avermelhada, cauda longa e tem pelos compridos nas
+              orelhas.
+            </p>
+            <p>
+              O tamanho deste animal é variável, o menor deles é o esquilo
+              pigmeu africano, que mede 13 cm de comprimento. Os maiores são os
+              esquilos gigantes da Ásia, seu comprimento pode chegar a 90 cm.
+            </p>
+            <p>
+              Este animal pode ser encontrado no mundo todo, menos na Austrália.
+              Normalmente vivem em bosques de coníferas e caducifólias (plantas
+              que em determinada época do ano perdem suas folhas). Embora
+              existam espécies que podem ser encontradas no deserto ou na taiga.
+              Para viver nestes lugares, os esquilos passaram por adaptações e
+              desenvolveram estratégias que lhes permitem suportar as
+              temperaturas extremas que caracterizam estas regiões.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Urso</h2>
+            <p>
+              Os ursos são mamíferos membros da família ursidae, junto com os
+              pandas. Com oito espécies em cinco gêneros (Ursus, Tremarctos,
+              Melursus, Helarctus e Ailuropoda) é uma família pouco diversa. São
+              eles: Urso de Óculos, Urso Beiçudo, Urso-do-Sol, Urso
+              Negro-Asiático, Urso Negro-Americano, Urso Polar, Urso Pardo e
+              Urso Panda. São animais sempre grandes e geralmente onívoros,
+              existem em todos os continentes, exceto na Austrália e Antártida.
+            </p>
+            <p>
+              É uma família que vive nos mais diversos habitats terrestres,
+              desde as regiões geladas do Hemisfério Norte, a florestas
+              temperadas, florestas tropicais, montanhas, pastagens e regiões
+              áridas. Apesar da ocorrência nestas regiões áridas, eles precisam
+              de proximidade com água e são mais diversos nas regiões temperadas
+              e boreais.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Lobo</h2>
+            <p>
+              Os lobos são mamíferos carnívoros, pertencentes à família canidae,
+              a mesma de cães, raposas, etc. É parente bem próximo do cão
+              doméstico (Canis lupus familiaris) e acredita-se que este tenha se
+              originado através da domesticação de lobos cinzentos. Pertencentes
+              ao gênero Canis, há três espécies vivas: Lobo cinzento (Canis
+              lupus) , Lobo vermelho (Canis rufus) e lobo etíope (Canis
+              simensis), as outras são classificadas como subespécies. 
+              </p>
+              <p>
+                É um originário da Era do Gelo, mas atualmente, devido à pressão de
+              caça, fragmentação de habitat e mudanças ambientais, encontra-se
+              em poucas áreas do EUA, Canadá, Alasca, Europa e Ásia.
+            </p>
+            <p>
+              Nas regiões mais frias (Norte) são maiores e nas regiões mais
+              quentes (Sul) vão diminuindo. Machos pesam em média 50 kg e fêmeas
+              45 kg, apesar de haver registros de um lobo com mais de 70 kg na
+              América do Norte. Um lobo-cinzento mede de 1,3 a 2,0 metros. As
+              garras estão sempre expostas, diferente dos felinos, e podem
+              alcançar 70 km/h quando caçam. Possuem glândulas odoríferas entre
+              seus dedos, deixando sua marca para outros lobos, por onde passam.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Babuino</h2>
+            <p>
+              Babuíno (do francês babouin) é a designação genérica para
+              antropoides cercopitecídeos do gênero Papio e afins,
+              caracterizados pelo focinho pontudo, caninos grandes, bochechas
+              volumosas e calosidades nas nádegas. É um animal semi-quadrúpede
+              da ordem dos primatas que mede até 120 centímetros de comprimento.
+              Vive na África e seu habitat natural é nos campos abertos (savana,
+              pastagens ou terrenos rochosos).
+            </p>
+            <p>
+              Ao contrário dos macacos, os babuínos passam a maior parte do
+              tempo no chão. Suas caudas não são preênseis. Os babuínos são
+              grandes lutadores e demonstram pouco medo de outros animais,
+              inclusive seres humanos. Todos têm hierarquias fortes e complexas
+              dentro dos grupos familiares.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Leão</h2>
+            <p>
+              A maior parte dos leões que hoje vive na natureza são encontrados
+              nas savanas da África e demais regiões semi-desérticas. Ele já foi
+              extinto de muitas áreas de florestas da Ásia e Europa.
+            </p>
+            <p>
+              Eles vivem em grupos de até 40 indivíduos, sendo em sua maioria
+              fêmeas, lideradas pelo macho alfa.
+            </p>
+            <p>
+              DAs atividades no grupo são divididas entre os seus integrantes.
+              Enquanto as fêmeas são responsáveis pela caça e cuidam dos
+              filhotes, os machos garantem a proteção do grupo.
+            </p>
+            <p>
+              A maior parte do tempo dos leões é destinada ao descanso, apenas
+              durante 5 horas do dia ocorrem as atividades de caça e em grupo. O
+              restante do tempo serve para dormir, descansar e economizar
+              energia.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>O que é um animal silvestre?</dt>
+          <dd>
+            É aquele que vive na natureza e não tem (ou não deveria ter) contato com os humanos. Quando tirados da natureza, os animais silvestres sofrem, podendo ter dificuldades para crescer e se reproduzir, por exemplo. 
+          </dd>
+          <dt>Qual a diferença para um animal exótico?</dt>
+          <dd>
+            Exótico é aquele que não pertence à fauna do país em que se encontra, como, por exemplo o furão (ou ferret), que teve origem no tourão - um animal silvestre europeu -, mas que é comumente comercializado no Brasil. Ou seja, os animais que são exóticos para nós no Brasil podem ser animais silvestres nativos em outras partes do mundo.
+          </dd>
+          <dt>Animal selvagem é o mesmo que animal silvestre?</dt>
+          <dd>
+            Sim, animal silvestre é também um animal selvagem – definido como aquele que vive em seu habitat natural, não é domesticado e reage se distanciando ou fugindo das pessoas. Alguns ainda podem apresentar comportamento agressivo e dificuldade de viver em contato com humanos.
+          </dd>
+          <dt>Como proteger animais silvestres?</dt>
+          <dd>
+            Estar ciente de nossas ações quando saímos de férias ou fazemos um passeio pela natureza é essencial. Devemos seguir todas as indicações que nos são dadas quando estamos em áreas protegidas. Ou, se formos a um local que não possui sinalização, devemos sempre buscar o cuidado com o local e as espécies que o habitam.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section galeria" data-anime="scroll">
+        <ul class="custom-controls">
+          <li><img src="img/slide/foto1-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto2-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto3-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto4-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto5-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto6-thumb.jpg" alt="" /></li>
+        </ul>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li><img src="img/slide/foto1.jpg" alt="" /></li>
+            <li><img src="img/slide/foto2.jpg" alt="" /></li>
+            <li><img src="img/slide/foto3.jpg" alt="" /></li>
+            <li><img src="img/slide/foto4.jpg" alt="" /></li>
+            <li><img src="img/slide/foto5.jpg" alt="" /></li>
+            <li><img src="img/slide/foto6.jpg" alt="" /></li>
           </ul>
-        </li>
-        <li><a href="#faq">Faq</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
-      </ul>
-    </nav>
-    <section class="grid-section animais" data-anime="scroll" id="animais">
-      <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista" data-tab="menu">
-        <li>
-          <img src="img/imagem1.jpg">
-        </li>
-        <li>
-          <img src="img/imagem2.jpg">
-        </li>
-        <li>
-          <img src="img/imagem3.jpg">
-        </li>
-        <li>
-          <img src="img/imagem4.jpg">
-        </li>
-        <li>
-          <img src="img/imagem5.jpg">
-        </li>
-        <li>
-          <img src="img/imagem6.jpg">
-        </li>
-      </ul>
-      <div class="animais-descricao" data-tab="content">
-        <section data-anime="show-right">
-          <h2>Raposa</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-        
-        <section data-anime="show-right">
-          <h2>Esquilo</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-        <section data-anime="show-down">
-          <h2>Urso</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-        <section data-anime="show-down">
-          <h2>Lobo</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-        <section data-anime="show-right">
-          <h2>Macaco</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-        <section data-anime="show-right">
-          <h2>Leão</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        </section>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="grid-section faq" data-anime="scroll" id="faq">
-      <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista" data-anime="accordion">
-        <dt>Qual a idade dos animais?</dt>
-        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
-        <dt>Eles são fantásticos?</dt>
-        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
-        <dt>Qual a diferença?</dt>
-        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
-        <dt>Como proteger?</dt>
-        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
-      </dl>
-    </section>
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid"></div>
+      </section>
 
-  <section class="grid-section galeria" data-anime="scroll">
-    <ul class="custom-controls">
-      <li><img src="img/slide/foto1-thumb.jpg" alt=""></li>
-      <li><img src="img/slide/foto2-thumb.jpg" alt=""></li>
-      <li><img src="img/slide/foto3-thumb.jpg" alt=""></li>
-      <li><img src="img/slide/foto4-thumb.jpg" alt=""></li>
-      <li><img src="img/slide/foto5-thumb.jpg" alt=""></li>
-      <li><img src="img/slide/foto6-thumb.jpg" alt=""></li>
-    </ul>
-    <div class="slide-wrapper">
-      <ul class="slide">
-        <li><img src="img/slide/foto1.jpg" alt=""></li>
-        <li><img src="img/slide/foto2.jpg" alt=""></li>
-        <li><img src="img/slide/foto3.jpg" alt=""></li>
-        <li><img src="img/slide/foto4.jpg" alt=""></li>
-        <li><img src="img/slide/foto5.jpg" alt=""></li>
-        <li><img src="img/slide/foto6.jpg" alt=""></li>
-      </ul>
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label="Endereço próximo ao estacionamento."
+        >
+          <img src="img/mapa.png" />
+        </div>
+        <ul class="dados">
+          <li>gearqq@hotmail.com</li>
+          <li>+55 (44) 99922-7595</li>
+          <li>Rua do Conde, nº 21</li>
+          <li>Rio de Janeiro - RJ</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18">
+            Seg à Sex das 8 às 18
+          </li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>Página criada por Jeziel Silva através do curso JavaScript ES6 da Origamid</p>
+      </footer>
     </div>
-  </section>
 
-    <section class="grid-section numeros" data-anime="scroll">
-      <h1 class="titulo">Números</h1>
-      <div class="numeros-grid">
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar"></button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
       </div>
     </section>
-
-    <section class="grid-section contato" data-anime="scroll" id="contato">
-      <h1 class="titulo">Contato</h1>
-      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
-        <img src="img/mapa.png">
-      </div>
-      <ul class="dados">
-        <li>contato@origamid.com</li>
-        <li>+55 (21) 9999-9999</li>
-        <li>Rua do Conde, nº 21</li>
-        <li>Rio de Janeiro - RJ</li>
-        <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
-        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
-      </ul>
-    </section>
-
-    <footer class="copy">
-      <p>Todos os direitos reservados.</p>
-    </footer>
-  </div>
-
-  <section class="modal-container" data-modal="container">
-    <div class="modal">
-      <button data-modal="fechar" class="fechar"></button>
-      <form action="">
-        <label for="email">Email</label>
-        <input type="text" for="email" id="email">
-        <label for="senha">Senha</label>
-        <input type="password" for="senha" id="senha">
-        <button type="submit">Entrar</button>
-      </form>
-    </div>
-  </section>
-  <script src="main.js" type="text/JavaScript"></script>  
-</body>
+    <script src="main.js" type="text/JavaScript"></script>
+  </body>
 </html>
