@@ -131,6 +131,7 @@ body {
 
 .faq-lista dt {
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.1rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
@@ -150,6 +151,7 @@ body {
   font-family: Helvetica, Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
+  font-size: 0.9rem;
 }
 
 .mapa {
